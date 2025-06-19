@@ -1,5 +1,5 @@
 body {
-  background-image: url(51551511.png);
+  background-image: url(5252652.png);
   color: #000000;
   line-height: 2;
 }
@@ -21,16 +21,12 @@ body {
 .navbar a:hover {
   text-decoration: underline;
 }
-
-.container {
-  max-width: 1900px;
-  margin: 0 auto;
-  padding-top: 20%;
-
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
-.text-center {
-  text-align: left;
-  margin-left: 950px;
-  font-size: 15px;
+section {
+  margin-bottom: 2rem;
 }
