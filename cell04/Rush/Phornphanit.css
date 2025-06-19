@@ -33,5 +33,7 @@ section {
 .img88 {
   width: 20%;
   height: 20%;
-  padding-left: 5%;
 } 
+.container {
+  text-align: center;
+}
