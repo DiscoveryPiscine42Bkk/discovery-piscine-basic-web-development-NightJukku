@@ -2,35 +2,45 @@ body {
   background-image: url(51551511.png);
   color: #000000;
   line-height: 2;
+  /* ความใหญ่ของแนบบา */
 }
 
 .navbar {
   background-color: #333;
+  /* สีของแนบบา */
   padding: 1rem;
+  /* ระยะห่างจากตัวอักษรกะขอบ */
   display: flex;
+  /* จัดรูปแบบแนบบารแบบฟิกซ์ */
   justify-content: space-between;
+  /* จัดงานให้มีช่องว่างระหว่างกัน */
   align-items: center;
+  /* จัดเรียงอยู่ตรงกลาง */
 }
 
 .navbar a {
   color: rgb(252, 252, 252);
   text-decoration: none;
   margin-left: 1rem;
+  /* สีของตัวอักษรชื่อ เพิ่มมาจิ้นระยะขอบ */
 }
 
 .navbar a:hover {
   text-decoration: underline;
+  /* จัดรูปแบบตัวหนังสืออยู่บนเส้น */
 }
 
 .container {
   max-width: 1900px;
   margin: 0 auto;
   padding-top: 20%;
+  /* ขนาดตัวอักษร และ เพิ่มระยะออกมาให้ตัวหนังสือหัวข้ออยู่กลาง */
 
 }
 
 .text-center {
   text-align: left;
   margin-left: 950px;
-  font-size: 15px;
+  font-size: 18px;
+  /* ขนาดตัวอักษร และ เพิ่มมาจิ้นขยับตัวอักษรจากขอบซ้ายมากลาง */
 }

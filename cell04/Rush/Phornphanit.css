@@ -2,38 +2,51 @@ body {
   background-image: url(5252652.png);
   color: #000000;
   line-height: 2;
+  /* ความใหญ่ของแนบบา */
 }
 
 .navbar {
   background-color: #333;
+  /* สีของแนบบา */
   padding: 1rem;
+  /* ระยะห่างจากตัวอักษรกะขอบ */
   display: flex;
+  /* จัดรูปแบบแนบบารแบบฟิกซ์ */
   justify-content: space-between;
+  /* จัดงานให้มีช่องว่างระหว่างกัน */
   align-items: center;
+  /* จัดเรียงอยู่ตรงกลาง */
 }
 
 .navbar a {
   color: rgb(252, 252, 252);
   text-decoration: none;
   margin-left: 1rem;
+  /* สีของตัวอักษรชื่อ เพิ่มมาจิ้นระยะขอบ */
 }
 
 .navbar a:hover {
   text-decoration: underline;
+  /* จัดรูปแบบตัวหนังสืออยู่บนเส้น */
 }
 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  /* ขนาดรูปและความโค้งมนของรูป */
 }
 
 section {
   margin-bottom: 2rem;
+  /* ขนาดตัวอักษร และ เพิ่มมาจิ้นขยับตัวอักษรจากขอบซ้ายมากลาง */
 }
+
 .img88 {
   width: 20%;
   height: 20%;
+  /* รูปจัดไว้ตรงกลาง */
 } 
 .container {
   text-align: center;
+  /* ข้อมูลส่วนตัวอยู่กึ่งกลาง */
 }
